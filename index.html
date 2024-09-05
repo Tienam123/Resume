@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link
+			rel="icon"
+			type="image/svg+xml"
+			href="/vite.svg"
+	/>
+    <meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+	/>
+    <title>Vite App</title>
+	   <link
+			   rel="stylesheet"
+			   type='text/css'
+			   href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+	   />
+  </head>
+  <body>
+    <div
+			id="app"
+			class="w-[1000px] mx-auto border-slate-700 p-5 border"
+	>
+		<aside class="bg-slate-700 w-1/4 text-white">
+			<load src="src/partials/logo.html"/>
+			<div class="pl-5">
+				<load src="src/partials/personal-data.html"/>
+			</div>
+		</aside>
+		<div class="p-5 flex-1">
+			<header>
+						<load src="src/partials/header.html"/>
+			</header>
+			<main>
+						<load src="src/partials/about.html"/>
+				    	<load src="src/partials/technologies.html"/>
+				    	<load src="src/partials/education.html"/>
+				    	<load src="src/partials/expirience.html"/>
+			</main>
+		</div>
+    </div>
+    <script
+			type="module"
+			src="/main.js"
+	></script>
+  </body>
+</html>
