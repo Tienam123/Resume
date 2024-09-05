@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=https://tienam123.github.io/Resume/",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
